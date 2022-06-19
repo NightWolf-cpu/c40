@@ -1,0 +1,37 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+<script src="/js/game.js"></script>
+<script src="/js/player.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<!--Add database config here below-->
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyAhzhpSeUUaIFnpSh_GYzEa7YqgVO_Ymvs",
+    authDomain: "c40-project-8512b.firebaseapp.com",
+    projectId: "c40-project-8512b",
+    storageBucket: "c40-project-8512b.appspot.com",
+    messagingSenderId: "140945683222",
+    appId: "1:140945683222:web:3f85ff8b0fe8ef0916d637",
+    measurementId: "G-F23B2FXL49"
+  };
+  
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+  
+
+
+</body></html>
